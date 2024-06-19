@@ -346,14 +346,11 @@ strong {
   color: var(--white-color);
 }
 
-.navbar .navbar-brand-image {
-  filter: brightness(0) invert(1);
-}
 
 .navbar-brand-image {
-  width: 48px;
+  width: 100px;
   height: auto;
-  margin-right: 10px;
+ align-items: center;
 }
 
 .navbar .custom-btn {

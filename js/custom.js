@@ -13,7 +13,8 @@
           slides: [
               { src: 'images/slides/viveiro.jpg' },
               { src: 'images/cravo.jpg' },
-              { src: 'images/agrofloresta1.jpg' }
+              { src: 'images/agrofloresta1.jpg' },
+              { src: 'images/flor1.jpg' }
           ],
           timer: false,
           animation: 'kenburns',

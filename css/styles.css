@@ -667,6 +667,10 @@ strong {
   bottom: 0;
 }
 
+.smaller-text {
+  font-size: 14px;
+}
+
 
 /*---------------------------------------
   OUR MENU              

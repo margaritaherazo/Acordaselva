@@ -1,7 +1,7 @@
 //jquery-click-scroll
 //by syamsul'isul' Arifin
 
-var sectionArray = [1, 2, 3, 4, 5];
+var sectionArray = [1, 2, 3, 4, 5, 6];
 
 $.each(sectionArray, function(index, value){
           
@@ -16,6 +16,7 @@ $.each(sectionArray, function(index, value){
              $('.navbar-nav .nav-link:link').addClass('inactive');  
              $('.navbar-nav .nav-item .nav-link').eq(index).addClass('active');
              $('.navbar-nav .nav-item .nav-link').eq(index).removeClass('inactive');
+             
          }
          
      });

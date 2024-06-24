@@ -630,7 +630,8 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  max-height: 450px;
+  height: 440px;
+  width: 270px;
   cursor: pointer;
 }
 
@@ -640,6 +641,7 @@ strong {
 
 .team-block-image-wrap {
   width: 100%;
+  height: 420px;
 }
 
 .team-block-image {

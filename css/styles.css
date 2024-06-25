@@ -675,8 +675,34 @@ strong {
 
 
 /*---------------------------------------
-  OUR MENU              
+  cursos       
 -----------------------------------------*/
+
+#section_3 {
+
+  background-image: url('../images/curso1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.curso-wrap {
+
+  background-color: rgba(188, 108, 37, 0.8);
+  border-radius: var(--border-radius-medium);
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+
+
+
+/*---------------------------------------
+  cursos       
+-----------------------------------------*/
+
 .menu-section {
   background-image: url('../images/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg');
   background-repeat: no-repeat;

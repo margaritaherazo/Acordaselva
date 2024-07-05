@@ -20,6 +20,19 @@
           animation: 'kenburns',
       });
     });
+
+    $(function() {
+      $('.curso-slides').vegas({
+          slides: [
+              { src: 'images/slides/viveiro.jpg' },
+              { src: 'images/cravo.jpg' },
+              { src: 'images/agrofloresta1.jpg' },
+              { src: 'images/flor1.jpg' }
+          ],
+          timer: false,
+          animation: 'kenburns',
+      });
+    });
     
     // CUSTOM LINK
     $('.smoothscroll').click(function(){

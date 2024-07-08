@@ -24,10 +24,11 @@
     $(function() {
       $('.curso-slides').vegas({
           slides: [
-              { src: 'images/slides/viveiro.jpg' },
-              { src: 'images/cravo.jpg' },
-              { src: 'images/agrofloresta1.jpg' },
-              { src: 'images/flor1.jpg' }
+              { src: 'images/slides/curso2.jpg' },
+              { src: 'images/curso3.jpg' },
+              { src: 'images/curso1.jpg' },
+              { src: 'images/curso4.jpg' },
+              { src: 'images/curso5.jpg' }
           ],
           timer: false,
           animation: 'kenburns',

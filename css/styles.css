@@ -664,6 +664,7 @@ strong {
 }
 
 .team-block-info .badge {
+  background-color: rgba(188, 108, 37, 1);
   margin: auto;
   top: 2px;
   bottom: 0;
@@ -743,8 +744,8 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  height: 440px;
-  width: 270px;
+  height: 200px;
+  width: 200px;
   cursor: pointer;
 }
 
@@ -754,7 +755,7 @@ strong {
 
 .mudas-block-image-wrap {
   width: 100%;
-  height: 420px;
+  height: 200px;
 }
 
 .mudas-block-image {
@@ -773,14 +774,9 @@ strong {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 30px;
+  padding: 10px;
 }
 
-.mudas-block-info .badge {
-  margin: auto;
-  top: 2px;
-  bottom: 0;
-}
 
 
 

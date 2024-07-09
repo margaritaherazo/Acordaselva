@@ -781,10 +781,10 @@ strong {
 
 
 /*---------------------------------------
-  REVIEWS              
+  Testimonios             
 -----------------------------------------*/
 .reviews-section {
-  background-color: #7c5c52;
+  background-color: rgb(77, 57, 33);
 }
 
 .reviews-block {
@@ -799,7 +799,7 @@ strong {
 }
 
 .reviews-block-image-wrap {
-  background-image: url('../images/mid-section-waitress-wiping-espresso-machine-with-napkin-cafa-c.jpg');
+  background-image: url('../images/folhas.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -744,8 +744,8 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   cursor: pointer;
 }
 
@@ -755,7 +755,7 @@ strong {
 
 .mudas-block-image-wrap {
   width: 100%;
-  height: 200px;
+  height: 180px;
 }
 
 .mudas-block-image {

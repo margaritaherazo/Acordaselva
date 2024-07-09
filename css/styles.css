@@ -1001,8 +1001,8 @@ strong {
 -----------------------------------------*/
 .site-footer {
   background-color: var(--primary-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .site-footer strong {
@@ -1026,9 +1026,16 @@ strong {
   text-decoration: underline;
 }
 
+.logo-footer {
+  width: 180px;
+  height: auto;
+}
+
 .copyright-text {
   color: rgba(255, 255, 255, 0.75);
   font-size: var(--menu-font-size);
+  text-align: center;
+  margin-top: 10px;
 }
 
 .copyright-text a {

@@ -890,7 +890,6 @@ strong {
 
 .google-map {
   border-radius: var(--border-radius-medium);
-  filter: grayscale(100);
 }
 
 .contact-block-wrap {

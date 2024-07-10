@@ -674,6 +674,13 @@ strong {
   font-size: 14px;
 }
 
+@media (max-width: 768px) {
+  .team-block-wrap {
+      width: 100%; 
+      height: auto;
+      }
+    }
+
 
 /*---------------------------------------
   cursos       
@@ -768,7 +775,12 @@ strong {
   padding: 10px;
 }
 
-
+@media (max-width: 768px) {
+  .mudas-block-wrap {
+      width: 100%; 
+      height: auto;
+      }
+}
 
 
 /*---------------------------------------

@@ -725,19 +725,10 @@ strong {
 -----------------------------------------*/
 
 .viveiro-section {
-  background-color: rgb(77, 57, 33);
+  background-color: var(--secondary-color);
   position: relative;
 }
 
-.viveiro-wrap {
-
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(150, 93, 43, 0.425));
-  border-radius: var(--border-radius-medium);
-  position: relative;
-  overflow: hidden;
-  padding: 20px;
-
-}
 
 .mudas-block-wrap {
   background-color: var(--secondary-color);

@@ -11,7 +11,7 @@
   --border-color:                 #7fffd4;
   --link-hover-color:             #E76F51;
 
-  --body-font-family:             'Plus Jakarta Sans', sans-serif;
+  --body-font-family:             'Plus Jakarta Sans', Arial, sans-serif;
 
   --h1-font-size:                 68px;
   --h2-font-size:                 46px;
@@ -328,8 +328,8 @@ strong {
 .navbar {
   background: transparent;
   z-index: 999999;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar .container {
@@ -349,7 +349,7 @@ strong {
 
 .navbar-brand-image {
   width: 100px;
-  height: auto;
+  height: 100px;
  align-items: center;
 }
 
@@ -368,7 +368,7 @@ strong {
   color: var(--white-color);
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-bold);
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 15px;
 }
 
@@ -564,25 +564,17 @@ strong {
   position: absolute !important;
 }
 
-.opening-hours-list {
-  margin: 0;
-  padding: 0;
+.vegas-slide {
+  width: 100%;
+  height: 100%;
 }
 
-.opening-hours-list li {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: var(--btn-font-size);
-  font-weight: var(--font-weight-normal);
-  margin-bottom: 10px;
+.vegas-slide-inner {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
 }
-
-.opening-hours-list li .underline {
-  background-color: rgba(255, 255, 255, 0.75);
-  width: 35%;
-  height: 1px;
-  margin: auto 15px 0 15px;
-}
-
 
 /*---------------------------------------
   ABOUT              
@@ -1031,7 +1023,7 @@ strong {
 
 .logo-footer {
   width: 180px;
-  height: auto;
+  height: 180px;
 }
 
 .copyright-text {
@@ -1222,13 +1214,6 @@ strong {
     height: 200px;
   }
 
-  .booking-form {
-    padding: 35px;
-  }
-
-  .opening-hours-list li {
-    font-size: 12px;
-  }
 
   .reviews-block-image-wrap {
     flex-direction: column;

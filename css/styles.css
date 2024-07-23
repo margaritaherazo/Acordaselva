@@ -622,8 +622,8 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  height: 440px;
   width: 270px;
+  height: 440px;
   cursor: pointer;
 }
 
@@ -632,15 +632,15 @@ strong {
 }
 
 .team-block-image-wrap {
-  width: 100%;
+  width: 270px;
   height: 420px;
 }
 
 .team-block-image {
   display: block;
   object-fit: cover;
-  width: 100%;
-  height: 100%;
+  width: 270px;
+  height: 420px;
   transition: all 0.3s;
 }
 
@@ -671,6 +671,12 @@ strong {
       width: 100%; 
       height: auto;
       }
+
+      .team-block-image-wrap, .team-block-image {
+        width: 100%;
+        height: 420px;
+      }
+      
     }
 
 
@@ -734,8 +740,8 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  height: 180px;
   width: 180px;
+  height: 180px;
   cursor: pointer;
 }
 
@@ -744,15 +750,15 @@ strong {
 }
 
 .mudas-block-image-wrap {
-  width: 100%;
+  width: 180px;
   height: 180px;
 }
 
 .mudas-block-image {
   display: block;
   object-fit: cover;
-  width: 100%;
-  height: 100%;
+  width: 180px;
+  height: 180px;
   transition: all 0.3s;
 }
 
@@ -771,6 +777,11 @@ strong {
   .mudas-block-wrap {
       width: 100%; 
       height: auto;
+      }
+
+      .mudas-block-image-wrap, .mudas-block-image {
+        width: 100%;
+        height: auto;
       }
 }
 

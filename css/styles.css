@@ -805,7 +805,7 @@ strong {
 }
 
 .reviews-block-image-wrap {
-  background-image: url('../images/folhas.jpg');
+  background-image: url('../images/folhas.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -888,7 +888,7 @@ strong {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(188, 108, 37, 1)), url('../images/agrofloresta2.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(188, 108, 37, 1)), url('../images/agrofloresta2.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -776,7 +776,7 @@ strong {
 @media (max-width: 768px) {
   .mudas-block-wrap {
       width: 100%; 
-      height: auto;
+      height: 250px;
       }
 
       .mudas-block-image-wrap, .mudas-block-image {

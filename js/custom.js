@@ -11,10 +11,10 @@
     $(function() {
       $('.hero-slides').vegas({
           slides: [
-              { src: 'images/slides/viveiro.jpg' },
-              { src: 'images/cravo.jpg' },
+              { src: 'images/slides/viveiro.webp' },
+              { src: 'images/cravo.webp' },
               { src: 'images/agrofloresta1.jpg' },
-              { src: 'images/flor1.jpg' }
+              { src: 'images/flor.webp' }
           ],
           timer: false,
           animation: 'kenburns',
@@ -24,10 +24,10 @@
     $(function() {
       $('.curso-slides').vegas({
           slides: [
-              { src: 'images/slides/curso2.jpg' },
-              { src: 'images/curso3.jpg' },
+              { src: 'images/slides/curso2.webp' },
+              { src: 'images/curso3.webp' },
               { src: 'images/curso1.jpg' },
-              { src: 'images/curso4.jpg' },
+              { src: 'images/curso4.webp' },
               { src: 'images/curso5.jpg' }
           ],
           timer: false,
